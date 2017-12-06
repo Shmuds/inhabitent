@@ -1,0 +1,50 @@
+.shop-stuff-page, .content-area, main {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+margin-right: auto;
+width: 1200px;
+}
+.shop-images img{
+  height: 172px;
+  width: 100%;
+}
+.shop-title {
+  a {
+  color: black;
+  display: inline-block;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 1rem;
+  padding-top: 1.6rem;
+ }
+}
+.products {
+  article {
+  border: 1px solid #e1e1e1;
+  flex: 0 1 23%;
+  height: 260px;
+  padding: 0 5% 5% 0;
+  width: 260px;
+ }
+}
+h4, .store-title {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.taxonomy {
+  margin-bottom: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  a {
+      color: #248a83;
+        text-decoration: none;
+  }
+}
+.taxonomy-term {
+  padding-right: 2%;
+}
