@@ -24,11 +24,11 @@ get_header(); ?>
 
       <?php
       $args = array(
-        'taxonomy' => 'product type',
+        'taxonomy' => 'product-type',
         'hide_empty' => 0,
       );
       $terms = get_terms($args);
-      //if ( ! empty( $terms ) && ! is_wp_error($terms ) ) :
+      if ( ! empty( $terms ) && ! is_wp_error($terms ) ) :
       foreach ($terms as $term) {
 	      ?>
 			<div class="product">
@@ -51,6 +51,7 @@ get_header(); ?>
 						<?php
            }
            ?>
+				 <?php  endif; ?>
 </section>
 
 			<?php /* Start the Loop */ ?>
@@ -96,8 +97,9 @@ get_header(); ?>
 		 </div>
     <?php endforeach; wp_reset_postdata(); ?>
 		</section>
-       <button href="#" class="more-adventures" type="button" name="button">More Adventures</button>
-
+		<a href="index.php/adventure/" class="more">
+       <button  class="more-adventures" type="button" name="button">More Adventures</button>
+   </a>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

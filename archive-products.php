@@ -9,7 +9,7 @@ get_header(); ?>
 <h4 class="store-title">Shop Stuff</h4>
 <?php
 $args = array(
-  'taxonomy' => 'product type',
+  'taxonomy' => 'product-type',
   'hide_empty' => 0,
 );
 $terms = get_terms($args);

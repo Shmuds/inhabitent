@@ -899,6 +899,9 @@ div .other-nav {
   text-align: center;
   text-transform: uppercase; }
 
+.more {
+  margin-right: 77%; }
+
 .more-adventures {
   background: #248a83;
   border: none;
@@ -906,10 +909,19 @@ div .other-nav {
   color: #fff;
   font-family: Novecento Sans Web,sans-serif;
   font-size: .9rem;
-  margin-right: 77%;
   padding: .9rem 1.5rem;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.social-button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 0;
+  margin-left: 2%;
+  padding: .8rem 1.7rem; }
 
 .about-hero {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../project-04/images/product-photos/weathered-canoes.jpg");
@@ -1013,7 +1025,8 @@ h4, .store-title {
   padding-right: 2%; }
 
 .footer {
-  background-image: url("../../project-04/images/dark-wood.png"); }
+  background-image: url("../../project-04/images/dark-wood.png");
+  color: white; }
 
 .the-journal {
   border-right: 1px solid #e1e1e1;
@@ -1054,9 +1067,142 @@ h4, .store-title {
 
 .journal-page-button {
   background-color: transparent;
+  color: black;
   border: 1px solid #000;
   padding: .8rem;
   text-decoration: none; }
   .journal-page-button:visited {
     text-decoration: none;
     color: #000; }
+
+.findus-title {
+  text-align: center; }
+
+.seriously-camping {
+  text-align: center; }
+
+.para {
+  text-align: center; }
+
+div .single-product-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: Novecento Sans Web,sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px; }
+
+.single-product-title {
+  color: #d99054;
+  font-family: Novecento Sans Web,sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase; }
+
+.single-product-price {
+  font-family: Novecento Sans Web,sans-serif;
+  font-size: 1.8rem;
+  margin-top: 0;
+  text-transform: uppercase; }
+
+.single-product-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 3%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.single-product-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.shop-term-title {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+.shop-term-description {
+  text-align: center; }
+
+.product-type-taxonomy {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.taxonomy-content {
+  border: 1px solid #e1e1e1;
+  max-width: 23%;
+  margin-left: 1.5rem; }
+
+.single-texonomy-image img {
+  height: 250px;
+  width: 320px; }
+
+.taxonomy-title {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 1rem; }
+  .taxonomy-title a {
+    text-decoration: none;
+    margin-right: 2%; }
+    .taxonomy-title a:visited {
+      color: black;
+      text-decoration: none; }
+
+.search-title a {
+  color: #248a83;
+  text-decoration: none; }
+  .search-title a:visited {
+    color: #248a83;
+    text-decoration: none; }
+
+.content-search {
+  border-right: 1px solid #e1e1e1;
+  padding-right: 5%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.entry-search p {
+  width: 65%; }
+
+.pagination {
+  border-top: 1px solid #e1e1e1;
+  font-family: Novecento Sans Web,sans-serif;
+  padding: 1.5rem 0;
+  text-transform: uppercase; }
+  .pagination .page-numbers {
+    background-color: #248a83;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    padding: .5rem .75rem;
+    margin-right: .25rem;
+    text-align: center;
+    text-decoration: none; }
+    .pagination .page-numbers:visited {
+      text-decoration: none; }

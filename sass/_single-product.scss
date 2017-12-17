@@ -1,0 +1,31 @@
+div {
+  .single-product-div {
+  display: flex;
+  flex-direction: row;
+  font-family: Novecento Sans Web,sans-serif;
+  margin-left: auto;
+margin-right: auto;
+width: 1120px;
+ }
+}
+.single-product-title {
+  color: #d99054;
+  font-family: Novecento Sans Web,sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.single-product-price {
+  font-family: Novecento Sans Web,sans-serif;
+font-size: 1.8rem;
+margin-top: 0;
+text-transform: uppercase;
+}
+.single-product-content {
+  display: flex;
+  margin-left: 3%;
+  flex-direction: column;
+}
+.single-product-social {
+  display: flex;
+  flex-direction: row;
+}

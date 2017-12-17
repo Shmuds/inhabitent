@@ -1,0 +1,41 @@
+.search-title {
+  a {
+    color: #248a83;
+    text-decoration: none;
+  &:visited {
+    color: #248a83;
+    text-decoration: none;
+   }
+ }
+}
+.content-search {
+  border-right: 1px solid #e1e1e1;
+    padding-right: 5%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.entry-search {
+  p {
+  width: 65%;
+ }
+}
+.pagination {
+  border-top: 1px solid #e1e1e1;
+font-family: Novecento Sans Web,sans-serif;
+padding: 1.5rem 0;
+text-transform: uppercase;
+  .page-numbers {
+    background-color: #248a83;
+    color: #fff;
+    display: inline-block;
+    line-height: 1;
+    padding: .5rem .75rem;
+    margin-right: .25rem;
+    text-align: center;
+    text-decoration: none;
+    &:visited {
+      text-decoration: none;
+    }
+  }
+}

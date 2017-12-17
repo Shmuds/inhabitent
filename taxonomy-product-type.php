@@ -6,15 +6,22 @@
  */
 
 get_header(); ?>
-
+<div class="shop-term-title">
+<?php single_term_title(); ?>
+</div>
+<div class="shop-term-description">
+ <?php echo term_description(); ?>
+</div>
+<hr>
+<div class="product-type-taxonomy">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
-
-			<?php the_post_navigation(); ?>
+   <div class="taxonomy-content">
+			<?php get_template_part( 'template-parts/content', 'single-taxonomy' ); ?>
+  </div>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
@@ -27,6 +34,6 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+</div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

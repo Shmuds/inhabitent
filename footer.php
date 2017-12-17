@@ -9,10 +9,18 @@
 
      <div class="footer">
 			<footer id="colophon" class="site-footer" role="contentinfo">
-				<?php get_sidebar(); ?>
+        <div id="secondary" class="widget-area" role="complementary">
+        	<?php dynamic_sidebar( 'sidebar-footer' ); ?>
+          <?php dynamic_sidebar( 'sidebar-1' ); ?>
+
+          <button type="button" name="button"><i class="fa fa-facebook"></i>LIKE</button>
+          <button type="button" name="button"><i class="fa fa-twitter"></i>TWEET</button>
+          <button type="button" name="button"><i class="fa fa-pinterest"></i>PIN</button>
+        </div><!-- #secondary -->
 				<h3>COPYRIGHT © 2016 INHABITENT</h3>
+        <img src="../../project-04/images/inhabitent-logo-text.svg" alt="Inhabitent logo">
+
 				<div class="site-info">
-					<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
 		<?php wp_footer(); ?>

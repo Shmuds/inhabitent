@@ -231,6 +231,9 @@ float: left;
   text-align: center;
   text-transform: uppercase;
 }
+.more {
+  margin-right: 77%;
+}
 .more-adventures {
     background: #248a83;
     border: none;
@@ -238,8 +241,16 @@ float: left;
     color: #fff;
     font-family: Novecento Sans Web,sans-serif;
     font-size: .9rem;
-    margin-right: 77%;
     padding: .9rem 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
+   justify-content: flex-start;
+}
+
+.social-button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 0;
+  margin-left: 2%;
+  padding: .8rem 1.7rem;
 }
